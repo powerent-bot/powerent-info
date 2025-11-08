@@ -641,3 +641,28 @@ body {
     padding: 0.35rem 0;
   }
 }
+/* Styl dla zdjęcia urządzenia (12-slot stacja) */
+.device-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0 1.4rem;
+}
+
+.device-image {
+  max-width: 100%;
+  width: 380px;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  object-fit: cover;
+  background-color: #0b2430;
+}
+
+@media (max-width: 768px) {
+  .device-image {
+    width: 100%;
+    max-width: 320px;
+  }
+}
