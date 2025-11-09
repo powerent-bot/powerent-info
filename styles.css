@@ -735,13 +735,12 @@ body {
   }
 
   /* Logo – trochę mniejsze, żeby nie przytłaczało */
-  .logo img {
-    width: 150px;
-  }
-
-  .header-inner {
-    padding: 0.4rem 0;
-  }
+.logo img {
+  display: block;
+  width: 200px; /* większe logo na telefonie */
+  height: auto;
+  max-width: 80vw; /* nie wyjdzie poza ekran */
+}
 
   /* Hero i karta urządzenia */
   .hero {
