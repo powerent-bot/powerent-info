@@ -169,22 +169,169 @@
       <div class="container">
         <header class="section-header">
           <h2>Regulamin korzystania z usługi</h2>
-          <p>Poniżej możesz wkleić pełny regulamin świadczenia usług wynajmu powerbanków Powerent.</p>
-        </header>
-        <div class="legal-box">
-          <!-- TODO: Wklej swój regulamin w miejsce tego tekstu -->
-          <p><strong>Miejsce na Twój regulamin.</strong></p>
-          <p>
-            Tutaj wstawisz finalną treść regulaminu określającą m.in.:
-          </p>
-          <ul>
-            <li>zasady wynajmu powerbanków i odpowiedzialność użytkownika,</li>
-            <li>szczegółowe warunki płatności i zwrotu blokady 30 zł,</li>
-            <li>postępowanie w razie zagubienia lub uszkodzenia urządzenia,</li>
-            <li>czas trwania umowy i zasady reklamacji.</li>
-          </ul>
-          <p class="placeholder-note">
-            Po przygotowaniu dokumentu prawnego zastąp ten blok kompletną treścią regulaminu.
+        <style>
+  /* === Styl ogólny regulaminu === */
+  .regulamin-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    color: #222;
+    line-height: 1.7;
+  }
+
+  .regulamin-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #4b8bf4;
+    padding-bottom: 10px;
+  }
+
+  .regulamin-container h2 {
+    margin-top: 40px;
+    font-size: 1.4rem;
+    color: #2a5adf;
+    border-left: 5px solid #4b8bf4;
+    padding-left: 12px;
+  }
+
+  .regulamin-container p {
+    margin: 15px 0;
+    text-align: justify;
+  }
+
+  .regulamin-container ul {
+    margin: 15px 0 15px 25px;
+    list-style-type: disc;
+  }
+
+  .regulamin-container li {
+    margin-bottom: 10px;
+  }
+
+  .regulamin-container a {
+    color: #2a5adf;
+    text-decoration: none;
+  }
+
+  .regulamin-container a:hover {
+    text-decoration: underline;
+  }
+
+  /* === Wyróżnienia i akcenty === */
+  .regulamin-container strong {
+    color: #000;
+  }
+
+  /* === Responsywność === */
+  @media (max-width: 768px) {
+    .regulamin-container {
+      padding: 20px;
+    }
+    .regulamin-container h1 {
+      font-size: 1.6rem;
+    }
+    .regulamin-container h2 {
+      font-size: 1.2rem;
+    }
+  }
+</style>
+
+<section id="regulamin" class="regulamin-container">
+  <h1>REGULAMIN KORZYSTANIA Z USŁUGI POWERENT</h1>
+
+  <h2>1. Postanowienia ogólne</h2>
+  <p>Niniejsza umowa nakłada na Ciebie wiążące zobowiązania prawne. 
+  Jeśli nie zgadzasz się z którymkolwiek z postanowień niniejszej umowy, prosimy o niekorzystanie z platformy, usług oferowanych za jej pośrednictwem ani o nierejestrowanie konta w takich usługach.</p>
+  <p>Warunki te stanowią umowę („Umowa”) pomiędzy Tobą („Użytkownik”) a 24 Antoni Krasnodębski oraz podmiotami stowarzyszonymi („my”, „nas”, „Powerent”) w zakresie korzystania z usługi udostępniania powerbanków („Usługa”). Postanowienia te mają zastosowanie do naszej witryny internetowej: 
+  <a href="https://powerent-bot.github.io/moja-strona/index.html" target="_blank">https://powerent-bot.github.io/moja-strona/index.html</a> („Witryna”).</p>
+  <p>Korzystanie z Usługi podlega niniejszej Umowie, naszej Polityce Prywatności oraz Zasadom Korzystania z Powerbanku („Polityka Użytkowania”), które są dostępne na Platformie. 
+  Użytkownik, korzystając z Usługi, akceptuje zarówno Politykę Prywatności, jak i Politykę Użytkowania – stanowią one integralną część niniejszej Umowy.</p>
+  <p>Zastrzegamy sobie prawo do zmiany warunków niniejszej Umowy w dowolnym momencie. Zmiany wchodzą w życie z chwilą opublikowania zmodyfikowanej wersji na Platformie. 
+  Każdorazowe korzystanie z Usługi oznacza akceptację aktualnej wersji Umowy.</p>
+
+  <h2>2. Kwalifikacja użytkownika</h2>
+  <ul>
+    <li>Masz ukończone 16 lat oraz posiadasz pełną zdolność prawną i psychiczną do zawarcia niniejszej Umowy i korzystania z Usługi.</li>
+    <li>Wszystkie informacje przekazane nam podczas korzystania z Usługi są prawdziwe, kompletne i aktualne.</li>
+    <li>Korzystanie przez Ciebie z Usługi nie narusza żadnych obowiązujących przepisów prawa ani regulacji.</li>
+  </ul>
+
+  <h2>3. Korzystanie z usługi</h2>
+  <p>Aby skorzystać z powerbanku Powerent, zeskanuj kod QR na stacji. Po zapoznaniu się z instrukcją i dokonaniu płatności, bateria zostanie natychmiast zwolniona – możesz z niej od razu korzystać.</p>
+  <p>Przed użyciem akumulatora należy dokładnie sprawdzić jego stan techniczny, w szczególności stan kabli, poziom naładowania oraz ewentualne uszkodzenia.</p>
+  <p>W razie jakichkolwiek problemów z baterią Powerent należy niezwłocznie skontaktować się z działem obsługi klienta pod adresem e-mail: 
+  <a href="mailto:biuro@powerent.pl">biuro@powerent.pl</a>.</p>
+  <p>Użytkownik zobowiązany jest korzystać z akumulatora Powerent w sposób rozsądny, zgodny z prawem i zasadami współżycia społecznego. 
+  Zabrania się jego niszczenia, ukrywania, modyfikowania, usuwania kabla lub podejmowania działań uniemożliwiających korzystanie z urządzenia innym użytkownikom.</p>
+  <p>Akumulator należy zwrócić w stanie niepogorszonym. W przypadku zwrotu uszkodzonego urządzenia zostanie naliczona opłata odpowiadająca kosztowi naprawy.</p>
+  <p>Zabrania się wynajmowania, użyczania lub udostępniania akumulatora osobom trzecim, a także wykorzystywania go w działalności gospodarczej.</p>
+  <p>Po zakończeniu korzystania z baterii Powerent należy zwrócić ją do stacji. Okres wynajmu kończy się automatycznie po zwrocie i uiszczeniu należnych opłat.</p>
+  <p>Dane zarejestrowane przez Platformę stanowią dowód czasu korzystania z urządzenia. Maksymalny okres wynajmu wynosi 5 dni. Po jego przekroczeniu urządzenie uznaje się za zagubione lub zakupione. 
+  Z Twojego konta może zostać pobrana opłata do 100 zł tytułem zgubienia, oprócz należności za wynajem. W przypadku zagubienia należy zgłosić ten fakt na policję oraz poinformować Powerent za pośrednictwem Platformy w ciągu 24 godzin.</p>
+
+  <h2>4. Cena za korzystanie z usługi</h2>
+  <p>Ceny za korzystanie z Usługi są widoczne na ekranie urządzenia lub na stronie internetowej: 
+  <a href="https://powerent-bot.github.io/moja-strona/index.html" target="_blank">https://powerent-bot.github.io/moja-strona/index.html</a>.</p>
+
+  <h2>5. Opłaty i płatności</h2>
+  <ul>
+    <li>Opłaty są ustalane zgodnie z informacjami prezentowanymi na urządzeniu lub stronie Powerent.</li>
+    <li>Do płatności wymagana jest ważna karta kredytowa, debetowa lub inna zatwierdzona metoda płatności obsługiwana przez naszego zewnętrznego operatora płatności. 
+    Karty przedpłacone i gotówka nie są akceptowane. Wszystkie płatności dokonywane są za pośrednictwem zewnętrznego operatora.</li>
+    <li>W przypadku kwestionowania opłaty należy niezwłocznie skontaktować się z nami pod adresem 
+    <a href="mailto:biuro@powerent.pl">biuro@powerent.pl</a>.</li>
+    <li>Reklamacje dotyczące opłat należy zgłaszać w ciągu 10 dni roboczych od daty obciążenia.</li>
+    <li>W przypadku braku środków lub zablokowania karty, Powerent może wystawić fakturę. Brak płatności może skutkować postępowaniem windykacyjnym.</li>
+  </ul>
+
+  <h2>6. Skargi i reklamacje</h2>
+  <p>Wszelkie skargi, reklamacje i spory dotyczące Usługi lub Platformy należy zgłaszać za pośrednictwem Platformy lub wysyłając wiadomość na adres 
+  <a href="mailto:biuro@powerent.pl">biuro@powerent.pl</a>.</p>
+
+  <h2>7. Własność intelektualna i prywatność</h2>
+  <p>Wszystkie prawa własności intelektualnej do Platformy, w tym znaki towarowe, logo, kody źródłowe i treści, należą do 24 Antoni Krasnodębski lub jego licencjodawców. 
+  Nazwa i logo Powerent są chronione i nie mogą być używane bez naszej pisemnej zgody.</p>
+  <p>Udzielamy niewyłącznej, odwołalnej licencji na korzystanie z Platformy w celach osobistych i niekomercyjnych.</p>
+  <p>Powerent chroni prywatność użytkowników zgodnie z zasadami RODO, gromadząc jedynie dane niezbędne do świadczenia usług. 
+  Dane karty płatniczej są zabezpieczone protokołem SSL i nie są przechowywane przez Powerent.</p>
+
+  <h2>8. Odszkodowanie</h2>
+  <p>Użytkownik zobowiązuje się zwolnić Powerent oraz jego przedstawicieli z odpowiedzialności za wszelkie szkody wynikające z niewłaściwego korzystania z Usługi lub Platformy. 
+  Powerent może dochodzić odszkodowania w przypadku strat poniesionych w wyniku działań Użytkownika.</p>
+
+  <h2>9. Rozwiązanie umowy</h2>
+  <ul>
+    <li>Użytkownik może rozwiązać Umowę poprzez powiadomienie o rezygnacji z Usługi, zaprzestanie korzystania z Platformy przez 365 dni lub odrzucenie zmian w Umowie.</li>
+    <li>Powerent może rozwiązać Umowę w przypadku naruszenia warunków, braku płatności, długotrwałej nieaktywności, działań szkodliwych dla Platformy lub odmowy akceptacji zmian.</li>
+    <li>Po rozwiązaniu Umowy Powerent zachowuje prawo do dochodzenia należnych roszczeń.</li>
+  </ul>
+
+  <h2>10. Obowiązki i zakazy</h2>
+  <p>Użytkownik zobowiązany jest przestrzegać prawa, podawać prawdziwe dane oraz korzystać z Usługi w sposób odpowiedzialny i zgodny z jej przeznaczeniem.</p>
+  <p>Zabrania się m.in. zakłócania działania Platformy, wprowadzania złośliwego oprogramowania, naruszania cudzej własności intelektualnej, kopiowania lub modyfikowania kodu źródłowego, 
+  udostępniania konta osobom trzecim oraz działań niezgodnych z prawem lub godzących w dobre imię Powerent.</p>
+
+  <h2>11. Prawo właściwe</h2>
+  <p>Niniejsza Umowa podlega prawu polskiemu. Wszelkie spory rozstrzygane będą przez właściwe sądy polskie.</p>
+
+  <h2>12. Siła wyższa</h2>
+  <p>Nie ponosimy odpowiedzialności za szkody spowodowane działaniami siły wyższej, takimi jak awarie systemu, klęski żywiołowe, wojny, pożary, strajki, decyzje władz czy inne zdarzenia niezależne od nas.</p>
+
+  <h2>13. Postanowienia końcowe</h2>
+  <ul>
+    <li>Niniejsza Umowa, Polityka Prywatności i Polityka Użytkowania stanowią całość porozumienia między stronami.</li>
+    <li>Powerent zastrzega sobie prawo do przenoszenia swoich praw i obowiązków na inne podmioty.</li>
+    <li>Niewykonanie przez Powerent określonego postanowienia nie stanowi zrzeczenia się prawa do jego egzekwowania.</li>
+    <li>W razie uznania któregokolwiek z postanowień za nieważne, pozostałe zachowują moc obowiązującą.</li>
+  </ul>
+</section>
+
           </p>
         </div>
       </div>
