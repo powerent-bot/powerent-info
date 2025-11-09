@@ -821,3 +821,9 @@ body {
     justify-content: center;
   }
 }
+@media (min-width: 768px) {
+  .logo img {
+    width: 240px;
+  }
+}
+
