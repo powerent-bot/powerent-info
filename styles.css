@@ -708,3 +708,14 @@ body {
   padding-top: 0.8rem;
   font-size: 0.9rem;
 }
+/* Żeby regulamin i polityka wyglądały jak FAQ */
+.section-legal .legal-box {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+/* Ujednolicenie odstępów wewnątrz rozwijanych bloków */
+.legal-details .faq-body {
+  margin-top: 0.6rem;
+}
